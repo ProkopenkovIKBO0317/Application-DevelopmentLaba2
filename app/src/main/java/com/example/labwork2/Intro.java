@@ -11,7 +11,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class Intro extends AppCompatActivity {
+public class FirstActivity extends AppCompatActivity {
 
     static final String unpaused = "is resumed";
     static final String goBack = "is on back pressed";
@@ -40,7 +40,7 @@ public class Intro extends AppCompatActivity {
                         DownloadJSON();
 
                         if (!isGoBack) {
-                            Intent intent = new Intent(Intro.this, MainActivity.class);
+                            Intent intent = new Intent(FirstActivity.this, MainActivity.class);
                             intent.putExtra("Downloaded", arraylist);
                             startActivity(intent);
                             finish();
