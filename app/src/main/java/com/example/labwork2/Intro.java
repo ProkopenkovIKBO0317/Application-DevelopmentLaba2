@@ -11,7 +11,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class FirstActivity extends AppCompatActivity {
+public class Intro extends AppCompatActivity {
 
     static final String unpaused = "is resumed";
     static final String goBack = "is on back pressed";
