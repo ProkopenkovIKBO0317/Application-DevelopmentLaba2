@@ -40,7 +40,7 @@ public class Intro extends AppCompatActivity {
                         DownloadJSON();
 
                         if (!isGoBack) {
-                            Intent intent = new Intent(FirstActivity.this, MainActivity.class);
+                            Intent intent = new Intent(Intro.this, MainActivity.class);
                             intent.putExtra("Downloaded", arraylist);
                             startActivity(intent);
                             finish();
